@@ -1,0 +1,4 @@
+If egde is not contained in any cycle, it is brige. 
+By it's definition, tree is undirected graph without any cycle and having n-1 edges( n - number of vertexes).
+so, if there's no any cycle in a graph it will be a tree, and each of its edges will be briges.
+Answer: tree has n-1 briges.

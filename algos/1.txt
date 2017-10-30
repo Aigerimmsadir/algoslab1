@@ -1,0 +1,2 @@
+If a tree has only 1 vertex, it will have 0 edges.(if there's no other edges, we don't need to connect it with anything)
+Next, if I delete 1 edge, this graph will contain 2 trees (now it is disconnected graph, but still with same vertexes). If i delete 2 edge,there will be 3 trees, if 3 edge - 4 trees, etc. To get N trees(each having one vertex)  in the graph, I should delete N-1 edges.

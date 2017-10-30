@@ -1,0 +1,4 @@
+Suppose we there's no any edge ant the beginning, and we're going to add them one by one.
+At the beginning we have same number of connected components and vertexes. After adding one edge the number of connected components decreases by one or does not change. 
+Suppose there's no cycles in our graph, and it means that each new edge will reduce number of connected components. In order to get 1 connected component, we need to add n-1 edges, otherwise there will be more than one connected component.
+Proved.
